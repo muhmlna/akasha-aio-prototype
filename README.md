@@ -308,13 +308,15 @@ Year 1 ROI: (1.92B - 0.3B) / 0.3B = 540%
 ## 👤 Author
 
 **Muhammad Maulana**  
-Full-Stack AI Developer | Oracle EBS Specialist
++6282179773270 | mm120140080@gmail.com | [LinkedIn](https://www.linkedin.com/in/muhammad-maulana-itr080/) | [Portfolio](https://muhmlnasite.vercel.app/)  
+Jakarta, Indonesia
 
-- 📧 Email: [your-email]
-- 💼 LinkedIn: [your-linkedin]
-- 🔗 Proposal: [Akasha_AIO_Proposal_2Page_Final.md](../Akasha_AIO_Proposal_2Page_Final.md)
-
----
+### Work Experience
+- **PT Tri Sapta Jaya (KALBE Group)** — IT Developer (Jul 2026 – Present): Oracle EBS R12 custom development, PL/SQL, Order Management, ASP.NET Core, C#, Dapper.
+- **Center for Sustainable Development Goals Studies ITERA** — Full-Stack & Data Visualization Engineer (Sep 2023 – Oct 2025): Laravel 12, Filament 3, Chart.js, SDGs management platform.
+- **ICStar Hackathon 2024** — AI & RPA Developer (Aug 2024 – Nov 2024): Python, OpenCV, ESRGAN, UiPath automated image enhancement pipeline.
+- **OKOCE Indonesia x Kampus Merdeka** — Software Engineer & Project Manager Intern (Feb 2024 – Jul 2024): React, TypeScript, Tailwind CSS, team leadership.
+- **PT Bank Syariah Indonesia Tbk.** — UI/UX & Data Analytics Intern (Jul 2023 – Aug 2023): SQL, Tableau KPI dashboards, UI/UX design.
 
 ## 📄 License
 
