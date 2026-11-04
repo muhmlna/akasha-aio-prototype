@@ -95,6 +95,42 @@ akasha-aio-prototype/
 
 ---
 
+## 📊 Results Overview
+
+### Model Performance
+
+![Model Comparison](docs/model_comparison.png)
+
+**Actual Results (Synthetic Data):**
+- **Baseline:** 16.59% WAPE (Ramadan-Aligned Seasonal Naive)
+- **LightGBM:** 11.02% WAPE
+- **Improvement:** 33.6% WAPE reduction (exceeds 10% target by 3x)
+
+### Ramadan Impact on Demand
+
+![Ramadan Spike](docs/ramadan_spike.png)
+
+F&B products experience **32.7% demand spike** during Ramadan. Standard seasonal naive models fail because Ramadan shifts 10-11 days earlier each Gregorian year. Our baseline accounts for this using Hijri calendar alignment.
+
+### Kaplan-Meier Imputation in Action
+
+![Imputation Demo](docs/imputation_demo.png)
+
+Stockout periods (orange X markers) show where demand was censored. Kaplan-Meier imputation (red line) recovers the lost demand signal with **~14.5% MAPE** accuracy compared to ground truth.
+
+### Feature Importance
+
+![Feature Importance](docs/feature_importance.png)
+
+**Top 5 predictive features:**
+1. `rolling_mean_7d` — Recent demand trend
+2. `rolling_mean_30d` — Monthly pattern
+3. `lag_14d` — Bi-weekly cycle
+4. **`is_ramadan`** — Indonesian lunar calendar impact
+5. `lag_7d` — Weekly pattern
+
+---
+
 ## 🔬 Technical Deep-Dive
 
 ### 1. Kaplan-Meier Imputation (The Core Innovation)
