@@ -15,7 +15,6 @@ Akasha Wira International experienced a **70.9% inventory surge (Rp 400.8B)** in
 2. **Forecasting with Indonesian context** (Ramadan shifts, payday cycles, regional patterns)
 3. **Beating baseline by 10%+ WAPE** through gradient boosting
 
-📄 **Full Proposal:** [Akasha_AIO_Proposal_2Page_Final.md](../Akasha_AIO_Proposal_2Page_Final.md)
 
 ---
 
